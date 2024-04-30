@@ -1,5 +1,5 @@
 // controller.js
-const Menuseeker = require('../models/menuseeker');
+const Menuseeker = require('../models/menuseekers');
 
 const insertmenu = async (request, response) => {
   try {
