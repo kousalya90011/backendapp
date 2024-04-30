@@ -1,4 +1,4 @@
-const Customer = require("../models/CustomerSchema");
+const Customer = require("../models/cartschemas");
 //const customerApplicant = require("../models/customerapplicant");
 
 const insertcustomer = async (request, response) => {

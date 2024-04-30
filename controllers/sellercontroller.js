@@ -1,4 +1,4 @@
-const Seller = require("../models/Sellershema");
+const Seller = require("../models/sellerschema");
 
 
 const insertseller = async (request, response) => {

@@ -1,4 +1,4 @@
-const Delivery = require("../models/deliveryschema");
+const Delivery = require("../models/deliveryschemas");
 
 const insertdelivery = async (request, response) => {
   try {

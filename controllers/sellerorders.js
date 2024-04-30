@@ -1,4 +1,4 @@
-const sellerorder = require("../models/Orderschema");
+const sellerorder = require("../models/orderschemas");
 
 const insertorder = async (request, response) => {
     try {
