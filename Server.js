@@ -33,6 +33,7 @@ app.use("", sellerorder);
 app.post('/insertmenu', upload.single('image'), menuController.insertmenu);
 app.get('/viewmenu', menuController.viewmenu);
 app.delete('/deletemenu/:itemname', menuController.deletemenu);
+app.get('/',menuController.display);
 
 app.post('/insertcart', upload.single('image'), cartcontroller.insertcart);
 app.get('/viewcart', cartcontroller.viewcart);
@@ -48,3 +49,4 @@ const { insertseller, checksellerlogin, viewprofile} = require('./controllers/se
 app.post('/insertseller', insertseller);
 app.post('/checksellerlogin', checksellerlogin);
 app.get('/viewprofile/:email', viewprofile);
+

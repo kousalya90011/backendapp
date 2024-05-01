@@ -75,5 +75,10 @@ const deletemenu = async (request, response) => {
   }
 };
 
+const display = (request, response) => {
+  response.send('<h3>Backend is running successfully!</h3>');
+};
 
-module.exports = { insertmenu, viewmenu, deletemenu };
+
+
+module.exports = { insertmenu, viewmenu, deletemenu,display };
